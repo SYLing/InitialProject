@@ -1,0 +1,30 @@
+//
+//  ProjectEnter.pch
+//  ProjectEnter
+//
+//  Created by 邵银岭 on 15/7/31.
+//  Copyright (c) 2015年 邵银岭. All rights reserved.
+//
+
+#ifndef ProjectEnter_ProjectEnter_pch
+#define ProjectEnter_ProjectEnter_pch
+
+#ifdef __OBJC__
+
+#define YLkeyWindow [UIApplication sharedApplication].keyWindow
+// 自定义Log
+#ifdef DEBUG
+
+#define YLLog(...) NSLog(@"%s %d \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+
+#else
+#define YLLog(...)
+
+#endif
+
+//导入公共类
+#import "UIView+Frame.h"
+#import "UIImage+Image.h"
+
+#endif
+#endif

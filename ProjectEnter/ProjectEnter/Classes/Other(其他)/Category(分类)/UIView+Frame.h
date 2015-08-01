@@ -1,0 +1,18 @@
+//
+//  AppDelegate.m
+//  ProjectEnter
+//
+//  Created by 邵银岭 on 15/7/31.
+//  Copyright (c) 2015年 邵银岭. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface UIView (Frame)
+
+@property(nonatomic,assign)CGFloat width;
+@property(nonatomic,assign)CGFloat height;
+@property(nonatomic,assign)CGFloat x;
+@property(nonatomic,assign)CGFloat y;
+
+@end
