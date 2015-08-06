@@ -4,6 +4,7 @@
 //
 //  Created by 邵银岭 on 15/8/6.
 //  Copyright (c) 2015年 邵银岭. All rights reserved.
+
 //  单例对象抽出为宏
 
 #ifndef ProjectEnter_Single_h
