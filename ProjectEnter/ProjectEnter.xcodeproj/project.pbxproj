@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3162BAC61B73A87900F87C92 /* NSString+DirString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3162BAC51B73A87900F87C92 /* NSString+DirString.m */; };
 		3199C1451B6D23F000A1CAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3199C1431B6D23F000A1CAF5 /* Main.storyboard */; };
 		3199C1471B6D23F000A1CAF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3199C1461B6D23F000A1CAF5 /* Images.xcassets */; };
 		3199C14A1B6D23F000A1CAF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3199C1481B6D23F000A1CAF5 /* LaunchScreen.xib */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3162BAC41B73A87900F87C92 /* NSString+DirString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DirString.h"; sourceTree = "<group>"; };
+		3162BAC51B73A87900F87C92 /* NSString+DirString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DirString.m"; sourceTree = "<group>"; };
 		3199C1361B6D23F000A1CAF5 /* ProjectEnter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectEnter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3199C13A1B6D23F000A1CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3199C1441B6D23F000A1CAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -280,6 +283,8 @@
 				3199C17D1B6D246600A1CAF5 /* UIImage+Image.m */,
 				3199C17E1B6D246600A1CAF5 /* UIView+Frame.h */,
 				3199C17F1B6D246600A1CAF5 /* UIView+Frame.m */,
+				3162BAC41B73A87900F87C92 /* NSString+DirString.h */,
+				3162BAC51B73A87900F87C92 /* NSString+DirString.m */,
 			);
 			path = "Category(分类)";
 			sourceTree = "<group>";
@@ -450,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3162BAC61B73A87900F87C92 /* NSString+DirString.m in Sources */,
 				3199C1971B6D246600A1CAF5 /* main.m in Sources */,
 				3199C1911B6D246600A1CAF5 /* SYLTabBarController.m in Sources */,
 				3199C1951B6D246600A1CAF5 /* UIImage+Image.m in Sources */,
@@ -662,6 +668,7 @@
 				3199C15B1B6D23F000A1CAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3199C15C1B6D23F000A1CAF5 /* Build configuration list for PBXNativeTarget "ProjectEnterTests" */ = {
 			isa = XCConfigurationList;
@@ -670,6 +677,7 @@
 				3199C15E1B6D23F000A1CAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
