@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		3162BAC41B73A87900F87C92 /* NSString+DirString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DirString.h"; sourceTree = "<group>"; };
 		3162BAC51B73A87900F87C92 /* NSString+DirString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DirString.m"; sourceTree = "<group>"; };
+		3162BAC71B73AABF00F87C92 /* Single.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
 		3199C1361B6D23F000A1CAF5 /* ProjectEnter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectEnter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3199C13A1B6D23F000A1CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3199C1441B6D23F000A1CAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -272,6 +273,7 @@
 				3199C17B1B6D246600A1CAF5 /* Category(分类) */,
 				3199C1801B6D246600A1CAF5 /* main.m */,
 				3199C1811B6D246600A1CAF5 /* ProjectEnter.pch */,
+				3162BAC71B73AABF00F87C92 /* Single.h */,
 			);
 			path = "Other(其他)";
 			sourceTree = "<group>";
